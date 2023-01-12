@@ -1,0 +1,43 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+#FORM{
+    flex-grow: 0.4;
+}#TBL{
+    flex-grow: 0.6;
+}
+.form-group{
+    display: flex;
+    padding: 3% 0;
+}
+.form-group label{
+    justify-content: flex-start;
+    width: 50%;
+}
+.form-group input{
+    justify-content: flex-end;
+}
+.controle{
+    padding: 10% 0;
+}.controle input{
+    background-color: blueviolet;
+    color: aliceblue;
+    border: transparent;
+    padding: 5%;
+    
+}.controle input:hover{
+    border-bottom:2px solid #000;
+}
+
+th, td{
+    border: 1px solid #000;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+    width: 10%;
+}
